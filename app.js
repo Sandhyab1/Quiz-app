@@ -8,35 +8,35 @@ const questions =[
         correct : "a",
     },
     {
-        que: "Which of the following is a markup language",
-        a: "css",
-        b: "HTML",
-        c: "javascript",
-        d: "PHP",
-        correct : "a",
+        que: " How can you open a link in a new browser window?",
+        a: "<a href='url' new>",
+        b: "<a href='url' target='new'>",
+        c: "<a href='url' target='_blank'>",
+        d: "<a href='url' target=''>",
+        correct : "c",
     },
     {
-        que: "Which of the following is a markup language",
-        a: "css",
-        b: "HTML",
-        c: "javascript",
-        d: "PHP",
-        correct : "a",
+        que: "Which of these tags are all <table> tags?",
+        a: "<table><head><tfoot>",
+        b: "<table><tr><td>",
+        c: "<table><tr><tt>",
+        d: "<thead><body><tr>",
+        correct : "b",
     },
     {
-        que: "Which of the following is a markup language",
-        a: "css",
-        b: "HTML",
-        c: "javascript",
-        d: "PHP",
-        correct : "a",
+        que: "Which is not a property of attribute Behaviour of Marquee tag?",
+        a: "alternate",
+        b: "blur",
+        c: "scroll",
+        d: "slide",
+        correct : "b",
     },
     {
-        que: "Which of the following is a markup language",
-        a: "css",
-        b: "HTML",
-        c: "javascript",
-        d: "PHP",
+        que: "keyword is used to declare variables in javascript.",
+        a: "Var",
+        b: "Dim",
+        c: "String",
+        d: "None of the above",
         correct : "a",
     }
 ];
@@ -109,4 +109,5 @@ const endquiz =() =>
       </div>
       `
 }
+
 
